@@ -1,0 +1,6 @@
+env: dev
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://127.0.0.1:8681/eureka
