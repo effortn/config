@@ -1,4 +1,4 @@
-env: dev
+env: dev1
 spring:
   rabbitmq:
     addresses: 192.168.120.135:5672
