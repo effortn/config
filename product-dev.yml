@@ -1,4 +1,7 @@
 env: dev2
 spring:
   rabbitmq:
-    addresses: 192.168.120.135:5672
+    host: 192.168.120.135
+    port: 5672
+    username: guest
+    password: guest
