@@ -10,3 +10,4 @@ spring:
       bindings: 
         myMessageInput:
           group: product
+          content-type: application/json
