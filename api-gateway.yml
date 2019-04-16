@@ -1,3 +1,9 @@
+spring:
+  rabbitmq:
+    host: 192.168.120.135
+    port: 5672
+    username: guest
+    password: guest
 zuul:
   routes:
     #  /myProduct/product/list -> /product/product/list
