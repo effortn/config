@@ -4,19 +4,19 @@ spring:
     port: 5672
     username: guest
     password: guest
-zuul:
-  routes:
-    #  /myProduct/product/list -> /product/product/list
-    product:
-      path: /myProduct/**
-      serviceId: product
-      # 获取cookie
-      securityHeaders:
+# zuul:
+#   routes:
+#     #  /myProduct/product/list -> /product/product/list
+#     product:
+#       path: /myProduct/**
+#       serviceId: product
+#       # 获取cookie
+#       securityHeaders:
 
-      # 简洁写法
-#    product: /myProduct/**
-  # 排除路径
-  ignored-patterns:
-    - /**/test
-  #
-  sensitive-headers:
+#       # 简洁写法
+# #    product: /myProduct/**
+#   # 排除路径
+#   ignored-patterns:
+#     - /**/test
+#   #
+#   sensitive-headers:
