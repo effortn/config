@@ -9,7 +9,7 @@ zuul:
     #  /myProduct/product/list -> /product/product/list
     product:
       path: /myProduct/**
-      serviceId: product
+      service-id: product
       # 获取cookie
       securityHeaders:
 
